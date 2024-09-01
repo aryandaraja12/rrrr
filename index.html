@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!--
+<h1>The input value attribute</h1>
+
+<p>The value attribute specifies an initial value for an input field:</p>
+-->
+<form action="/server">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John banega don"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" >
+  <button type="submit"> submit</button>
+  <button type="reset">reset</button>
+  <button type="button">hello</button>
+</form>
+<hr>
+<form action="https://www.google.com/search?q=c%2B%2B+online+compiler&rlz=1C1CHBF_enIN1055IN1056&oq=&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkxNTExajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8">
+    <input type="text" placeholder="search in google" name="q">
+    <button>search</button>
+</form>
+<form action="https://www.youtube.com/results?search_query=c%2B%2B+code+with+harry">
+    <input type="text" placeholder="youtube" name="search_query">
+   <button>search</button><br><br>
+   <div> select your subjects
+  <input type="checkbox" id="math" name="sub" value="math" >
+  <label for="math">math</label>
+  <input type="checkbox" id="bio" name="sub" value="bio">
+  <label for="bio">bio</label>
+  <input type="checkbox" id="physics" name="sub" value="physics">
+  <label for="physics">physics</label>
+</div>
+<label for="pin">PINCODE:</label><br>
+<input type="text" id="pin" name="pin"   placeholder="XXX"  minlength="6" maxlength="6" size="4">
+<div>
+<select name="profession" id="profesion" >
+  <option> select your profession</option>
+  <option value="stu"> student</option>
+  <option value="dev">developer</option>
+  <option value="teach">teacher</option>
+</select>
+</div>
+<div>
+ 
+
+  <label for="datemin">Enter a date for competion of course:</label>
+  <input type="date" id="completion date" name="complete"   min="2024-01-01" max="2028-12-31" ><br><br>
+  
+  <label for="quantity"> add your current cgpa (between 1 and 10):</label>
+  <input type="number" id="cgpa" name="cgpa" min="1" max="10" ><br><br>
+
+  <select name="semester" id="sem" >
+    <option> select your current semester</option>
+    <option value="1">first  semester</option>
+    <option value="2">second semester</option>
+    <option value="3">third  semester</option>
+    <option value="4">fourth semester</option>
+    <option value="5">fifth  semester</option>
+    <option value="6">sixth  semester</option>
+    <option value="7">seventh semester</option>
+    <option value="8">eighth semester</option>
+    
+  </select>
+  
+</div><br><br>
+<div> Enter your browser which you used for searching data :
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist></div><br>
+<div>  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" placeholder="XXXX@123" autocomplete="on"></div>
+<div><label for="vol"> select your volume level :</label>
+<input type="range" id="vol" name="vol" min="0" max="100" step="10" value="50">
+</div>
+<button>submit</button>
+ 
+  
+    <p><label for="w3review"> Give a review for our site if you want:</label>
+    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+  </form><br><br><br><br>
+  <footer><h1> <I>Thanks for visiting guys</I></h1></p></footer>
+</body>
+</html>
+
